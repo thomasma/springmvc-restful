@@ -1,0 +1,4 @@
+//com.springsource.sts.config.flow.coordinates\:http\://www.springframework.org/schema/integration\:/springmvc-restful/src/main/resources/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<graph/>
+//com.springsource.sts.config.flow.coordinates\:http\://www.springframework.org/schema/integration\:/springmvc-restful/src/main/webapp/WEB-INF/service-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<graph/>
+//com.springsource.sts.config.flow.coordinates\:http\://www.springframework.org/schema/integration\:/springmvc-restful/src/main/webapp/WEB-INF/spring/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<graph/>
+eclipse.preferences.version=1
