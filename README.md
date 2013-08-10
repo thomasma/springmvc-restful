@@ -1,5 +1,9 @@
-springmvc-restful
-=================
+RESTful API's With SpringMVC (Starter Project)
+==============================================
+
+While SpringMVC makes it quite easy to create RESTful services, this starter project adds a few things more.
+It provides a consistent way to send error messages in json back to the caller and also integrates Spring Security into the mix. Though using a mock set of users.
+
 
 To run the application...
 -------------------------
