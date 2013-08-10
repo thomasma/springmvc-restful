@@ -10,11 +10,11 @@ mvn jetty:run
 To access the RESTful Services...
 ---------------------------------
 * Retrieve all Notes in JSON: 
-		curl -XGET -H "Accept: application/json" --user admin:password http://localhost:8080/service/note/notes 
+	curl -XGET -H "Accept: application/json" --user admin:password http://localhost:8080/service/note/notes 
 * Retrieve Single notes:
-		curl -XGET -H "Accept: application/json" --user admin:password http://localhost:8080/service/note/{replacethiswithanid}
+	curl -XGET -H "Accept: application/json" --user admin:password http://localhost:8080/service/note/{replacethiswithanid}
 * Add New Note: 
-		curl -XPOST -H "Content-Type: application/json" -H "Accept: application/json" --user admin:password http://localhost:8080/service/note  -d '{"message":"hello there"}'
+	curl -XPOST -H "Content-Type: application/json" -H "Accept: application/json" --user admin:password http://localhost:8080/service/note  -d '{"message":"hello there"}'
 
 * Field validation errors from REST service:
 		curl -XPOST -H "Content-Type: application/json" -H "Accept: application/json" --user admin:password http://localhost:8080/service/note  -d '{}'
